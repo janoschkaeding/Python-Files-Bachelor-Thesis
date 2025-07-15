@@ -18,7 +18,7 @@ import seaborn as sns
 import re
 
 
-#Selecting the image folders
+#Selecting the folders containing the h5 files
 folders = [
     r"C:\Users\Janos\Desktop\blood\BSNP_dinobloom\dinobloom-c2f7990b-dab38abe",
     r"C:\Users\Janos\Desktop\blood\control_dinobloom\dinobloom-c2f7990b-dab38abe",
