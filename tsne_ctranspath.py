@@ -16,7 +16,7 @@ from sklearn.manifold import TSNE
 from sklearn.cluster import KMeans
 
 
-#Selecting the image folders
+#Selecting the folders containing the h5 files
 folders = [
     r"C:/Users/Janos/Desktop/blood/BSNP_ctranspath/xiyuewang-ctranspath-7c998680-dab38abe",
     r"C:\Users\Janos\Desktop\blood\control_ctranspath\xiyuewang-ctranspath-7c998680-dab38abe",
