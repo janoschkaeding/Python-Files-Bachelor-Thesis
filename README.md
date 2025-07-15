@@ -1,0 +1,1 @@
+The only difference between the ctranspath files and their respective dinobloom counterparts is the filepaths for the h5 files and the size of the feature matrix, apart from that the code is identical.
