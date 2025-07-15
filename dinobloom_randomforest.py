@@ -35,7 +35,7 @@ folders = [
 #Setting the number of features to read from each file
 feat_len = 384
 
-#Creating the list of h5 files and 
+#Creating the list of h5 files 
 h5_files = []
 for folder in folders:
     files = glob.glob(os.path.join(folder, "*.h5"))
@@ -72,7 +72,7 @@ pred2 = classifier2.predict(Val1)
 decoded_preds = encoder.inverse_transform(pred2)
 decoded_true = encoder.inverse_transform(Val2)
 
-#Printing the prediction results of the validation set for increased transparancy and 
+#Printing the prediction results of the validation set for increased transparancy
 for file, pred, true in zip(Val_files, decoded_preds, decoded_true):
     print(f"{os.path.basename(file)} - Predicted: {pred}, Actual: {true}")
     
