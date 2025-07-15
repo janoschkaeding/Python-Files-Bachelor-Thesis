@@ -33,7 +33,7 @@ folders = [
 #Setting the number of features to read from each file
 feat_len = 384
 
-#Creating the list of h5 files and 
+#Creating the list of h5 files 
 h5_files = []
 for folder in folders:
     files = glob.glob(os.path.join(folder, "*.h5"))
